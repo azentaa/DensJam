@@ -129,6 +129,8 @@ GameObject:
   - component: {fileID: 505780853183339314}
   - component: {fileID: 3083264113432984936}
   - component: {fileID: 3885830467286304252}
+  - component: {fileID: 6376141033189429461}
+  - component: {fileID: 3798555249921975593}
   m_Layer: 0
   m_Name: player 1
   m_TagString: Untagged
@@ -304,19 +306,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a0a6f330ed4014c81ab02bcc74fa84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _wallSlidingSpeed: 2
   _jumpPower: 19
   _fallRatio: 4
   groundCheck: {fileID: 8080116640954445531}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  _isWallSliding: 0
-  _wallSlidingSpeed: 2
   wallCheck: {fileID: 3617215454520244193}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 128
-  b: 0
+    m_Bits: 0
+--- !u!61 &6376141033189429461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734223854701763045}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &3798555249921975593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734223854701763045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5da70ae6f0f494282aa272da865949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostGravity: 0.1
+  ghostOpacity: 0.5
+  ghostHardness: 0.1
+  colliderCheck: {fileID: 6376141033189429461}
+  Collider: {fileID: 4202158343953406938}
 --- !u!1 &7571435585756728178
 GameObject:
   m_ObjectHideFlags: 0

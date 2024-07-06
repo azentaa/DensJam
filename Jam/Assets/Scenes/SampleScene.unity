@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -274,7 +274,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1922146440461987880, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.2726166
+      value: 2.2439282
       objectReference: {fileID: 0}
     - target: {fileID: 1922146440461987880, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1922146440461987880, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.897
+      value: -2.8826
       objectReference: {fileID: 0}
     - target: {fileID: 1922146440461987880, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -322,7 +322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -469,6 +469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -568,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179612312}
   - component: {fileID: 179612313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ice_decoration_0001 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,6 +713,10 @@ PrefabInstance:
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Name
       value: Square (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -907,7 +915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1532,7 +1540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616623073}
   - component: {fileID: 616623074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Snowhill_0001 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,7 +1625,7 @@ GameObject:
   - component: {fileID: 619735959}
   - component: {fileID: 619735958}
   - component: {fileID: 619735957}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1836,7 +1844,7 @@ GameObject:
   - component: {fileID: 651426889}
   - component: {fileID: 651426888}
   - component: {fileID: 651426887}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2191,7 +2199,7 @@ GameObject:
   - component: {fileID: 725583770}
   - component: {fileID: 725583769}
   - component: {fileID: 725583768}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,7 +2485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786298526}
   - component: {fileID: 786298527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ice_decoration_0001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2613,7 +2621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2702,7 +2710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 840969318}
   - component: {fileID: 840969319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ice_decoration_0001 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2834,7 +2842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2851,7 +2859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921802030}
   - component: {fileID: 921802031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Snowhill_0001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3271,7 +3279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1065034049}
   - component: {fileID: 1065034050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Snowhill_0002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3761,6 +3769,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1333387341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2889511530573647358, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+  m_PrefabInstance: {fileID: 7838078396350654135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1333387346 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3536798995888037929, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+  m_PrefabInstance: {fileID: 7838078396350654135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1333387348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333387341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5da70ae6f0f494282aa272da865949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostGravity: 0.8
+  ghostOpacity: 0.5
+  ghostHardness: 0.1
+  colliderCheck: {fileID: 1333387349}
+  Collider: {fileID: 1333387346}
+--- !u!61 &1333387349
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333387341}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &1346993443 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4025407951202593339, guid: 5e95d10d2b76de44c9f2d8835a32cd1f, type: 3}
@@ -3922,6 +4002,10 @@ PrefabInstance:
     - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
       propertyPath: m_Name
       value: Square (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4836,6 +4920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 7147632907346419247, guid: 799e2c59c3f850e48bc2a9915919db6f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4853,13 +4941,25 @@ PrefabInstance:
       propertyPath: _jumpPower
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 161196656628514355, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161196656628514355, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 657502828750804292, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
       propertyPath: wallLayer.m_Bits
-      value: 192
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 657502828750804292, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
       propertyPath: _wallSlidingSpeed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 657502828750804292, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1597569149869807787, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
       propertyPath: m_Enabled
@@ -4924,7 +5024,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2889511530573647358, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1333387348}
+    - targetCorrespondingSourceObject: {fileID: 2889511530573647358, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1333387349}
   m_SourcePrefab: {fileID: 100100000, guid: 2ad1dcfdf545fb440847337b6e500238, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
